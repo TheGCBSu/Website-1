@@ -1,0 +1,41 @@
+/* Set the background color of the header to dark blue */
+.bg-dark-blue {
+  background-color: #003366; /* Dark blue color */
+}
+
+/* Make the font responsive */
+nav a {
+  font-size: 4vw; /* Font size will be 4% of the viewport width */
+  font-weight: bold;
+}
+
+/* Adjust font size for larger screens using media queries */
+@media (min-width: 768px) {
+  nav a {
+    font-size: 2rem; /* Set font size to a fixed size for larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  nav a {
+    font-size: 1.5rem; /* Adjust font size for extra-large screens */
+  }
+}
+
+/* Set the color of the text to light for contrast */
+.text-light {
+  color: #ffffff; /* White text for contrast */
+}
+header {
+  width: 100%; /* Make the header stretch across the entire screen */
+}
+
+.logo-container {
+  margin-top: 20px; /* Space between the logo and the header */
+}
+
+.logo {
+  max-width: 100%; /* Ensure the logo doesn't overflow */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100px; /* Adjust the logo size */
+}

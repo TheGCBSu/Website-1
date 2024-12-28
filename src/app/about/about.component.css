@@ -1,0 +1,38 @@
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-container h1,
+.about-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.about-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
+.social-link {
+  margin: 10px;
+  display: inline-block;
+  color: #007bff !important; /* Facebook-like blue */
+  text-decoration: none; /* No underline */
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.1s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.social-link:hover {
+  color: white !important; /* White text on hover */
+  background-color: #007bff; /* Blue background */
+  border-color: #0056b3; /* Darker border */
+}
