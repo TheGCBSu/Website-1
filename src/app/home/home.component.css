@@ -1,0 +1,128 @@
+.home-container {
+  background: url("../../assets/hbackground.jpg") center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.home-text {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px black; /* Additional shadow for readability */
+}
+
+.home-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.home-text .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+/* Why Choose Us Section */
+.benefits {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h4 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #343a40;
+}
+.benefits h2 {
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px white;
+  color: #007bff;
+}
+
+.feature-card p {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.feature-card i {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* Quick Fact Section */
+.facts {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.facts h2 {
+  font-size: 3rem;
+  color: blue;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px white;
+}
+
+.facts .card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.facts .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.facts .card-body {
+  padding: 20px;
+}
+
+.facts .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.facts .card-text {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+/* Example for the "Why Choose Us" Section */
+.benefits {
+  background-image: url("/../../assets/pic2.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  color: #fff; /* White text for contrast */
+}
+
+/* Example for the "Quick Fact" Section */
+.facts {
+  background-image: url("/../../assets/pic1.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  color: #fff; /* White text for contrast */
+}
